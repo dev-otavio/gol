@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title> GOL </title>
+	<meta charset="utf8">
+	<style>
+	  body {
+		  margin: 0;
+		  background: #999;
+		  font-family: sans serif;
+	  }
+	  canvas {
+		  width: 400px;
+		  height: 400px;
+		  background: #fff;
+		  display: block;
+	  }
+	</style>
+  </head>
+  <body>
+	<canvas>
+	</canvas>
+	
+	<!-- TODO -->
+	<!-- <fieldset> -->
+	<!--   <caption> -->
+	<!-- 	ZOOM -->
+	<!--   </caption> -->
+	<!--   <label> -->
+	<!-- 	1x: -->
+	<!-- 	<input type="radio" checked="true" name="zoom" value="1"> -->
+	<!--   </label> -->
+	<!--   <label> -->
+	<!-- 	2x: -->
+	<!-- 	<input type="radio" name="zoom" value="2"> -->
+	<!--   </label> -->
+	<!-- </fieldset> -->
+
+	<!-- TODO -->
+	<!-- <label> -->
+	<!--   cell surface area: -->
+	<!--   <input id="area" type="range" max="40000" min="1"> -->
+	<!-- </label> -->
+
+	<label>
+	  accelarate:
+	  <input id="acc" value="1" type="number" max="20" min="1">
+	</label>
+	<label>
+	  slow down:
+	  <input id="sdn" value="1" type="number" max="20" min="1">
+	</label>
+
+	<button id="tick">tick</button>
+	<button id="stop">stop</button>
+	<script src="main.js"></script>
+  </body>
+</html>
